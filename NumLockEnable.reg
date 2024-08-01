@@ -1,0 +1,5 @@
+//Run as local admin in order to engage the NumLock every time the computer starts
+Windows Registry Editor Version 5.00
+
+[HKEY_USERS\.DEFAULT\Control Panel\Keyboard]
+"InitialKeyboardIndicators"="2147483650"
